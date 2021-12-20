@@ -1,0 +1,77 @@
+body {
+    max-width: 735px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    color: white;
+    border-style: ridge;
+    
+}
+
+header {
+    background-color: #32cd32;
+}
+header img {
+    margin-left: 20px;
+}
+.saludos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.saludos h4 {
+    margin: 15px auto 5px auto;
+    color: black;
+}
+.saludos h2 {
+    margin: 10px auto 25px auto;
+    color: black;
+}
+.cuentas {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+    justify-content: flex-start;
+    margin: auto;
+}
+.countCard {
+    background-color: #32cd32;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+.countCards {
+    background-color: #32cd32;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    display: none;
+}
+.mostrarMas {
+    background-color: #32cd32;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    visibility: visible;
+}
+
+footer {
+    margin-top: 35px;
+}
+.salir {
+    background-color: #32cd32;
+    margin-left: 55px;
+    width: 80px;
+    height: 44px;
+    border-radius: 8px;
+    border-style: outset;
+    color: white;
+    margin-bottom: 20px;
+}
